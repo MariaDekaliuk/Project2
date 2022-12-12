@@ -24,11 +24,11 @@ public class Main {
         boolean z = false;
         char    t = 'W';
 
-        System.out.println(a);
-        System.out.println(b);
-        System.out.println(c);
+        System.out.println("Значение byte = " + a);
+        System.out.println("Значение short = " + b);
+        System.out.println("Значение int = " + c);
         System.out.println(d);
-        System.out.println(pi);
+        System.out.println("Значение float = pi = " + pi);
         System.out.println(p);
         System.out.println(e);
         System.out.println(z);
