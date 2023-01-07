@@ -50,6 +50,6 @@ public class Main {
         System.out.println(k2);
         System.out.println(k3);
 
-
+        System.out.println("Это верно");
     }
 }
