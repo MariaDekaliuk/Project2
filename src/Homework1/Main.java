@@ -37,5 +37,21 @@ public class Main {
         System.out.println(t);
 
 
+        /*Задача 2: Дано трехзначное число.
+        Вывести все 3 цифры этого числа.
+        */
+
+        int k = 345;
+        int w = 341;
+        int k1 = k/100;
+        int k2 = k-w;
+        int k3 = k % 10;
+        System.out.println("-------------------");
+        System.out.println("Задача 2");
+        System.out.println(k1);
+        System.out.println(k2);
+        System.out.println(k3);
+
+        System.out.println("Это верно3");
     }
 }
