@@ -18,7 +18,11 @@ public class Exercise2 {
 
     public static void main(String[] args) {
         String text = new String("I study Basic Java!");
-        System.out.println(text);
+
+        StringMethods firstText = new StringMethods();
+
+        firstText.variableText = "I study Basic Java!";
+        System.out.println(firstText.variableText);
 
         System.out.println(text.charAt(18));
 
