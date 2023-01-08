@@ -1,8 +1,4 @@
-package Homework2;
-
-public class Homework15december2022 {
-
-    /*First level:
+/*First level:
     Задание №1.
     1) Перевести число 333 из шестнадцатиричной в десятичную
     2) Разложить число 200345 на разряды в десятичной системе
@@ -39,5 +35,3 @@ public class Homework15december2022 {
     пиццы содержит 40 калорий.
 
      */
-
-}
