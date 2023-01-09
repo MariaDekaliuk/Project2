@@ -79,11 +79,21 @@ public class Excersice3 {
         float number8 = Float.parseFloat(scanner.nextLine());
         System.out.println(number7+number8);
 
-        //ЗАДАНИЕ №3.3. ================
+        //ЗАДАНИЕ №3.3. ================конвертировать евро в долларСША
         System.out.println("=============");
         System.out.println("ЗАДАНИЕ №3.3.");
 
 
+        System.out.println("Введите сумму ЕВРО: ");
+        float euro = Float.parseFloat(scanner.nextLine());
+        System.out.println("Введите курс, т.е. стоимость $ USA в ЕВРО  ");
+        System.out.println("Для справки! Курс $ USA в ЕВРО на 08.01.2023:\n " +
+                "1 Евро равно 1,07 Доллар США");
+        float kurs = Float.parseFloat(scanner.nextLine());
+        System.out.println("Сумма в $ USA ");
+        float dollar = euro*kurs;
+        String.format("%8.2f", dollar).replace(',', '.');
+        System.out.println("Ваша сумма в $ USA: " + dollar);
 
     }
 }
