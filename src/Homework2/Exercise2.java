@@ -20,7 +20,6 @@ public class Exercise2 {
         String text = new String("I study Basic Java!");
 
         StringMethods firstText = new StringMethods();
-
         firstText.variableText = "I study Basic Java!";
         System.out.println(firstText.variableText);
 
