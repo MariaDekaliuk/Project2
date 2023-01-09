@@ -17,7 +17,7 @@ public class Excersice3 {
      */
     public static void main(String[] args) {
 
-    //ЗАДАНИЕ №3.1. ================
+//ЗАДАНИЕ №3.1. ================
         System.out.println("ЗАДАНИЕ №3.1. - мой вариант");
 
         String text1 = "Конь";
@@ -31,7 +31,8 @@ public class Excersice3 {
 
         System.out.println("Ответ: " + text1 + text2);
 
-//==========
+        //================
+
         System.out.println("=============");
         System.out.println("Теперь попробуйте Вы:");
         Scanner scanner = new Scanner(System.in);
@@ -47,7 +48,7 @@ public class Excersice3 {
         System.out.println("Магия! Вы создали: " + Worte3);
 
 
-    //ЗАДАНИЕ №3.2. ================
+//ЗАДАНИЕ №3.2. ================
         System.out.println("=============");
         System.out.println("ЗАДАНИЕ №3.2.");
 
@@ -79,7 +80,8 @@ public class Excersice3 {
         float number8 = Float.parseFloat(scanner.nextLine());
         System.out.println("Результат вычитания = " + (number7-number8));
 
-        //ЗАДАНИЕ №3.3. ================конвертировать евро в долларСША
+
+//ЗАДАНИЕ №3.3. ================конвертировать евро в долларСША
         System.out.println("=============");
         System.out.println("ЗАДАНИЕ №3.3.");
 
