@@ -56,28 +56,28 @@ public class Excersice3 {
         float number1 = Float.parseFloat(scanner.nextLine());
         System.out.println("Введите 2 число для умножения: ");
         float number2 = Float.parseFloat(scanner.nextLine());
-        System.out.println(number1*number2);
+        System.out.println("Результат умножения = " + (number1*number2));
 
         //деление
         System.out.println("Введите делимое: ");
         float number3 = Float.parseFloat(scanner.nextLine());
         System.out.println("Введите делитель: ");
         float number4 = Float.parseFloat(scanner.nextLine());
-        System.out.println(number3/number4);
+        System.out.println("Результат деления = " + (number3/number4));
 
         //сложение
         System.out.println("Введите 1 число для сложения: ");
         float number5 = Float.parseFloat(scanner.nextLine());
         System.out.println("Введите 2 число для сложения: ");
         float number6 = Float.parseFloat(scanner.nextLine());
-        System.out.println(number5+number6);
+        System.out.println("Результат сложения = " + (number5+number6));
 
         //вычитание
         System.out.println("Введите 1 число для вычитания: ");
         float number7 = Float.parseFloat(scanner.nextLine());
         System.out.println("Введите 2 число для вычитания: ");
         float number8 = Float.parseFloat(scanner.nextLine());
-        System.out.println(number7+number8);
+        System.out.println("Результат вычитания = " + (number7-number8));
 
         //ЗАДАНИЕ №3.3. ================конвертировать евро в долларСША
         System.out.println("=============");
@@ -88,9 +88,9 @@ public class Excersice3 {
         float euro = Float.parseFloat(scanner.nextLine());
         System.out.println("Введите курс, т.е. стоимость $ USA в ЕВРО  ");
         System.out.println("Для справки! Курс $ USA в ЕВРО на 08.01.2023:\n " +
-                "1 Евро равно 1,07 Доллар США");
+                "1 Евро равно 1.07 Доллар США");
         float kurs = Float.parseFloat(scanner.nextLine());
-        System.out.println("Сумма в $ USA ");
+        String.format("%8.2f", kurs).replace(',', '.');
         float dollar = euro*kurs;
         String.format("%8.2f", dollar).replace(',', '.');
         System.out.println("Ваша сумма в $ USA: " + dollar);
