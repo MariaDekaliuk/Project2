@@ -18,6 +18,24 @@ public class Excersice3 {
     public static void main(String[] args) {
 
 //ЗАДАНИЕ №3.1. ================
+
+        String WORTE1 = new String("МАГНАТ");
+        System.out.println(WORTE1);
+        System.out.println(WORTE1.length());
+        String WORTE3 = WORTE1.substring(0,3); //вырезать текст с.. по.. для вывода
+
+        String WORTE2 = new String("АРИЯ");
+        System.out.println(WORTE2);
+        System.out.println(WORTE2.length());
+        String WORTE4 = WORTE2.substring(2,4); //вырезать текст с.. по.. для вывода
+
+        System.out.println(WORTE3+WORTE4);
+
+        ///=====
+
+
+
+
         System.out.println("ЗАДАНИЕ №3.1. - мой вариант");
 
         String text1 = "Конь";
@@ -46,6 +64,9 @@ public class Excersice3 {
 
         String Worte3 =  inputWorte1 + inputWorte2;
         System.out.println("Магия! Вы создали: " + Worte3);
+
+
+
 
 
 //ЗАДАНИЕ №3.2. ================
