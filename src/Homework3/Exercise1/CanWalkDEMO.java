@@ -1,6 +1,5 @@
 package Homework3.Exercise1;
 
-import Homework3.Exercise1.CanWalk;
 import Homework3.Request;
 
 public class CanWalkDEMO {
