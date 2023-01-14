@@ -2,7 +2,7 @@ package Homework2;
 
 import java.util.Scanner;
 
-public class Exercise1 {
+public class Exercise1binarySystem {
 
     /*Задание №1.
     1) Перевести число 333 из шестнадцатиричной в десятичную
@@ -69,8 +69,8 @@ public class Exercise1 {
                 Integer.toOctalString(i));
         System.out.println("Число " + i + " в шестнадцатеричной форме: " +
                 Integer.toHexString(i));
-        System.out.println();
-
+        System.out.println("Число " + i + " в десятиричной форме: ");
 
     }
 }
+
