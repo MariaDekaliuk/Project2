@@ -1,4 +1,4 @@
-package Homework3.Exerscise3;
+package Homework3.Exercise3;
 
 import Homework3.Request;
 public class TemperaturaDemo {

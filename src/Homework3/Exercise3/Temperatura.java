@@ -1,4 +1,4 @@
-package Homework3.Exerscise3;
+package Homework3.Exercise3;
 
 public class Temperatura {
         static boolean check(int t1, int t2){
