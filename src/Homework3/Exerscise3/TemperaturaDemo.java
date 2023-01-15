@@ -4,10 +4,10 @@ import Homework3.Request;
 public class TemperaturaDemo {
         public static void main(String[] args) {
             /*спрашиваем температуру*/
-            int temperature1 = Request.intRequest("Укажите температуру 1 (int)");
-            int temperature2 = Request.intRequest("Укажите температуру 2 (int)");
+            int temperatur1za100 = Request.intRequest("Укажите температуру колбы 1 (int)");
+            int temperatur2do100 = Request.intRequest("Укажите температуру колбы 2 (int)");
 
-            System.out.println("Ваше устройство работает нормально? - "
-                    + Temperatura.check(temperature1, temperature2));
+            System.out.println("Устройство работает нормально? - " + Temperatura.check(temperatur1za100, temperatur2do100));
+
         }
 }

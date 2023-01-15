@@ -2,7 +2,7 @@ package Homework2;
 
 import java.util.Scanner;
 
-public class Excersice3 {
+public class Excerсise3 {
     /*Задание №3.
     1. введите 2 слова, используйте сканер, состоящий из четного количества букв
     (проверьте количество букв в слове).

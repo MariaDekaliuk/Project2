@@ -9,5 +9,6 @@ package Homework3.Exercise4;
 public class CountdownTime {
     static int secondsTranslator (int seconds){
         return seconds / 3600;
+
     }
 }

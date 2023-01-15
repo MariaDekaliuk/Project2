@@ -8,7 +8,8 @@ public class CountdownTimeDemo {
         int secEnd = Request.intRandom(0, 28800); //рандомный звпрос времени до конца рабочего дня
         int hoursEnd = CountdownTime.secondsTranslator(secEnd); //перевод полученных данных в часы
 
-        System.out.println(secEnd + " секунд ");
-        System.out.println(hoursEnd + " полных часа(ов) ");
+        System.out.println("До конца рабочего дня осталось: " + secEnd + " секунд");
+        System.out.println("До конца рабочего дня осталось: " + hoursEnd + " часа(ов)");
+
     }
 }
